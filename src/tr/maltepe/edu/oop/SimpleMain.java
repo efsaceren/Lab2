@@ -19,13 +19,16 @@ public class SimpleMain {
 
         Student s3,s4,s5;
 
-        s3 = new Student("Melisa");
+        s3 = new Student();
+        s3.setStd_name("Efsa");
         s3.learnes();
 
-        s4 = new Student("Ceren");
+        s4 = new Student();
+        s4.setStd_name("Melisa");
         s4.learnes();
 
-        s5 = new Student("Efsa");
+        s5 = new Student();
+        s5.setStd_name("Ayse");
         s5.learnes();
 
 
